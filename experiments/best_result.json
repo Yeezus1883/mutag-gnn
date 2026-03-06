@@ -1,0 +1,18 @@
+{
+    "mean_accuracy": 0.8932748538011698,
+    "std_accuracy": 0.053585411513536,
+    "config": {
+        "batch_size": 16,
+        "device": "mps",
+        "dropout": 0.6,
+        "epochs": 200,
+        "hidden_dim": 64,
+        "lr": 0.001,
+        "model": "gin",
+        "pooling": "max",
+        "scheduler": "cosine",
+        "seed": 42,
+        "weight_decay": 0.001
+    },
+    "timestamp": "2026-03-05 15:04:07"
+}
