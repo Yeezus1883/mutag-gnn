@@ -1,0 +1,68 @@
+/* GLOBAL FONT SIZE */
+html, body, [class*="css"] {
+    font-size: 18px;
+}
+
+/* MAIN TITLE */
+h1 {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+}
+
+/* SECTION HEADERS */
+h2 {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
+
+/* SUB HEADERS */
+h3 {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+/* PARAGRAPH TEXT */
+p {
+    font-size: 18px !important;
+    line-height: 1.6;
+}
+
+/* TABLE TEXT */
+table {
+    font-size: 17px !important;
+}
+
+/* SIDEBAR WIDTH */
+section[data-testid="stSidebar"]{
+    width:320px;
+}
+
+/* SIDEBAR TITLE */
+section[data-testid="stSidebar"] h1{
+    font-size:24px;
+}
+
+/* SIDEBAR RADIO NAVIGATION */
+section[data-testid="stSidebar"] .stRadio label{
+    font-size:20px !important;
+    font-weight:500;
+    padding:8px 0;
+}
+
+/* RADIO BUTTON SPACING */
+section[data-testid="stSidebar"] .stRadio > div{
+    gap:16px;
+}
+
+/* CONTENT WIDTH (prevents empty look) */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* CARD STYLE TABLE */
+[data-testid="stTable"] {
+    font-size: 18px;
+}
